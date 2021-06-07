@@ -1,0 +1,16 @@
+<h2 class="headTitle">Sales Lead Info</h2>
+<div class="ui search">
+    <input class="prompt" placeholder="Search Name..." type="text">
+    <div class="results"></div>
+</div>
+<script>
+    $(".search").keypress(function (event) {
+        if (event.which == 13) {
+            event.preventDefault();
+
+            window.location.href = location.origin + "?name=" + $(".prompt").val();
+        }
+        // var search = $(".prompt").val();
+        // console.log(search);
+    });
+</script>

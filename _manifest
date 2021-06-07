@@ -1,0 +1,4 @@
+applications:
+  - name: demonode
+    memory: 256M
+    path: nodejs-app

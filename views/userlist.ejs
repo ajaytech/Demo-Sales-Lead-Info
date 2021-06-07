@@ -1,0 +1,19 @@
+<div class="ui items">
+  <% clientList.forEach(function(client){ %>
+  <div class="item listItems">
+    <div class="content">
+      <div class="header"><%= client.name %></div>
+      <div class="meta">
+        <span class="price"><%= client.company %></span><br />
+        <span class="stay"><%= client.email %></span><br />
+        <span class="stay"><%= client.phone %></span><br />
+        <span class="stay"><%= client.balance %></span><br />
+        <span class="stay"><%= client.address %></span><br />
+      </div>
+      <div class="description">
+        <p><%= client.balance %></p>
+      </div>
+    </div>
+  </div>
+  <% }) %>
+</div>
