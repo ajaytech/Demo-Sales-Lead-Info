@@ -6,8 +6,9 @@
 - NodeJS Express Based App is used for Server
 - Data is Hardcoded in JSON which can be Replaced with SAP® HANA® and Other Data End-Points
 
-## Recommended Course:
-### Learn SAP® BTP - Beginner, Intermediate and Advanced
+### Recommended Course:
+#### Learn SAP® BTP - Beginner, Intermediate and Advanced
+
 Get started with SAP® BTP, Create and Deploy Your Side-by-Side App in SAP® Cloud Foundry, Integrate Your App to S/4 On-Premise System
 
 Link to the course with coupon:  **[here](https://www.ui5cn.com/enroll/1542708?price_id=1921785&coupon=scpbtpyearly38493649246)**
